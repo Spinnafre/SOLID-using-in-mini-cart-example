@@ -1,4 +1,4 @@
-import { ProductType } from "./classes/interfaces/ProductType";
+import { ProductType } from "./interfaces/ProductType";
 
 export class Product implements ProductType{
     name:string

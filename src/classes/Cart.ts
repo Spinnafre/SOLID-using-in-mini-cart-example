@@ -1,5 +1,5 @@
-import { CartProtocol } from "./classes/interfaces/CartProtocol"
-import { CartType } from "./classes/interfaces/CartType"
+import { CartProtocol } from "./interfaces/CartProtocol"
+import { CartType } from "./interfaces/CartType"
 
 export class Cart implements CartProtocol{
     readonly cartItems:CartType[]=[]

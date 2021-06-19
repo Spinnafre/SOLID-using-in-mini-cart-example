@@ -1,7 +1,7 @@
-import { Cart } from './services/Cart';
-import { CustomerPhysical } from './services/Customer';
-import { Order } from './services/Order';
-import { Product } from './services/Product';
+import { Cart } from './classes/Cart';
+import { CustomerPhysical } from './classes/Customer';
+import { Order } from './classes/Order';
+import { Product } from './classes/Product';
 import { SendMessage } from './services/SendMessage';
 
 const shoppingCart = new Cart();

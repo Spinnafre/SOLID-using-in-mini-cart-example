@@ -1,4 +1,4 @@
-import { TypeCustomer } from "./classes/interfaces/CustomerProtocol";
+import { TypeCustomer } from "./interfaces/CustomerProtocol";
 
 abstract class AbstractCustomer implements TypeCustomer{
     name:string
